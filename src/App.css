@@ -1,0 +1,98 @@
+
+.newsBar{
+
+  background-color: yellow;
+  height: 50px;
+  width: 100%;
+  overflow:hidden;
+
+}
+.news{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  animation: mymove 40s infinite;
+  -webkit-animation: mymove 40s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {left: 104%;}
+  to { left:-4500px ;}
+}
+
+.news:hover{
+  animation-play-state: paused;
+}
+
+p{
+  white-space: nowrap;
+
+}
+.fa-newspaper{
+  margin-right: 20px;
+  animation: brilliant 2s infinite;
+  -webkit-animation: brilliant 2s infinite;
+}
+@keyframes brilliant {
+  0%   {color: rgb(23, 247, 235); }
+  50%  {color: rgb(0, 0, 253); }
+  100% {color: blue;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
